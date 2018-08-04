@@ -101,10 +101,10 @@ function get_rest_attached_images_minus_feat() {
 }
 
 function get_rest_user_display_name() {
-	return the_author();
+	return get_the_author();
 }
 
 
 function get_rest_user_description() {
-	return the_author_description();
+	return get_the_author_description();
 }
